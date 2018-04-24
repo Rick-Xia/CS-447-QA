@@ -1,2 +1,4 @@
 # CS-447-QA
-Quality Assurance project using JAVA
+Quality Assurance teamwork project using JAVA.
+
+Coding part lays in folder pi/
