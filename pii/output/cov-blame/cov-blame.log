@@ -1,0 +1,30 @@
+[LOG] run: /usr/local/cov-analysis-linux64-8.7.1/bin/cov-format-errors --dir /home/y755zhan/coverity-idirs/g65_project --json-output-v6 /home/y755zhan/coverity-idirs/g65_project/output/cov-blame/errors.json --outputdir /home/y755zhan/coverity-idirs/g65_project/output
+[LOG] /usr/local/cov-analysis-linux64-8.7.1/bin/cov-format-errors exits successfully.
+[INFO] Computing likely owner for 10211 [144b7f360fe0aaef3de01d149f472166]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10212 [c031b5797cf825d09a3f3b1c99d23c47]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10209 [c9c7f212c76231f90d24c4b2012f3af6]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10214 [c374a39207cc81c131017d53158447c5]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10210 [29381f20b1c4584cff8f932e181682c4]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10213 [5302f7180b4604a777d4e773b2bd7cf4]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10213 [5302f7180b4604a777d4e773b2bd7cf4]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10213 [5302f7180b4604a777d4e773b2bd7cf4]:
+[INFO] 	default_component_owner: none

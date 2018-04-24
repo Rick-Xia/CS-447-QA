@@ -1,0 +1,13 @@
+{
+  covAnalyzeArgs : [
+    "--fb-include",
+    "coverity-default",
+    "--all",
+    "--disable-webapp-security",
+    "--enable-fb",
+    "-co",
+    "CODEXM:enable-builtin-checkers"
+  ],
+  fileOptions : [],
+  fileCheckerOptions : []
+}

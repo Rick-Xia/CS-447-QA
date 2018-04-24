@@ -1,0 +1,35 @@
+{
+  "rule" : "default_component_owner",
+  "assignments" : [
+    {
+      "mergeKey" : "144b7f360fe0aaef3de01d149f472166",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "29381f20b1c4584cff8f932e181682c4",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "5302f7180b4604a777d4e773b2bd7cf4",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c031b5797cf825d09a3f3b1c99d23c47",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c374a39207cc81c131017d53158447c5",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c9c7f212c76231f90d24c4b2012f3af6",
+      "cimUsername" : null,
+      "ldapServer" : null
+    }
+  ]
+}

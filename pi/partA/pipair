@@ -1,0 +1,22 @@
+#!/bin/bash
+
+javac ../*.java 2>/dev/null
+cp ../*.class ./
+
+
+if [ $# -eq 0 ]; then
+    echo "Invalid command line arguments."
+elif [ $# -eq 1 ];then
+  opt -print-callgraph -f $1 1>/dev/null 2>input.txt
+  java -Xms128m -Xmx128m projectMain input.txt
+elif [ $# -eq 2 ];then
+  echo "Invalid command line arguments."
+elif [ $# -eq 3 ];then
+  opt -print-callgraph -f $1 1>/dev/null 2>input.txt
+  java -Xms128m -Xmx128m projectMain input.txt $2 $3
+elif [ $# -eq 4 ];then
+  opt -print-callgraph -f $1 1>/dev/null 2>input.txt
+  java -Xms128m -Xmx128m projectMain input.txt $2 $3 $4
+else
+    echo "Invalid command line arguments."
+fi

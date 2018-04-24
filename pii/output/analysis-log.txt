@@ -1,0 +1,85 @@
+cmdline: command line: /usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --dir /home/y755zhan/coverity-idirs/g65_project --disable-webapp-security --strip-path /home/y755zhan/work/group_065/pi/partA --all --enable-fb 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "/home/y755zhan/coverity-idirs/g65_project" ] },
+cmdline:   { name: "disable-webapp-security" },
+cmdline:   { name: "strip-path", args: [ "/home/y755zhan/work/group_065/pi/partA" ] },
+cmdline:   { name: "all" },
+cmdline:   { name: "enable-fb" },
+cmdline:   { name: "config", args: [ "/usr/local/cov-analysis-linux64-8.7.1/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=23686
+startup: detected platform: Linux 3.10.0-514.10.2.el7.x86_64 x86_64
+startup: target platform: linux64
+startup: Detected 8 logical cpus
+startup: Detected 4 cpu cores
+startup: host name: ecelinux2.uwaterloo.ca
+startup: user name: y755zhan
+startup: Analysis version: 8.7.1 (a59584cec3 p-lodi1-push-28091.44.570)
+startup: temp directory: /tmp/cov-y755zhan/d848332c9be36afd945f901d397f61e3
+startup: enable_constraint_fpp=0
+startup: current time: 2017-Apr-03 00:45:28
+startup: Detected amount of memory: 65693468kb
+startup: Limiting memory to 59124121kb
+wlink: Skipping web-app linking, no archives
+emitdb: callgraph.cpp:2707 11111111
+emitdb: callgraph.cpp:2737 11000011
+emitdb: callgraph.cpp:2757 11000011
+rta: RTA discarded 198358 functions
+emitdb: callgraph.cpp:2767 11000000
+dyncg: N/A or no data
+cicx: Running: /usr/local/cov-analysis-linux64-8.7.1/bin/cov-internal-calc-xrefs --outputdir /home/y755zhan/coverity-idirs/g65_project/output --dir /home/y755zhan/coverity-idirs/g65_project --output-file /home/y755zhan/coverity-idirs/g65_project/output/merged-xrefs --strip-path /home/y755zhan/work/group_065/pi/partA --no-timestamp --progress-file-v1 /tmp/cov-y755zhan/d848332c9be36afd945f901d397f61e3/calc-xrefs-progress --tus-file /home/y755zhan/coverity-idirs/g65_project/output/calc-xrefs-tus
+directives: Optimizing dataflow configuration
+general: Starting analysis
+Using FindBugs 3.0.0-dev-20140429-1103397
+
+Scanning archives (2 / 2)
+2 analysis passes to perform
+Pass 1: Analyzing classes (50 / 50) - 100% complete
+Pass 2: Analyzing classes (5 / 5) - 100% complete
+Done with analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:45784
+dm-access-lib: AM starting DM with command line: /usr/local/cov-analysis-linux64-8.7.1/bin/cov-internal-dm --AM-port 45784 --log-file /home/y755zhan/coverity-idirs/g65_project/output/distributor.log -j 8 --AW-timeout 36000 /usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=23740
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:45784 - 127.0.0.1:59082 (remote)
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: stat2 1 16535 376 1155 13 mem=17608704 max=69423104 65 nr=11 n: batch 2
+wur: stat0 3 12083 456 1092 26 mem=17731584 max=69410816 196 nr=6 n: batch 0
+wur: stat1 2 6551 483 624 12 mem=17588224 max=69402624 62 nr=3 n: batch 1
+wur: conc13 2 893 4 400 0 1 n: projectMain$Pair.getSecond()java.lang.String in TU 3
+wur: conc17 1 865 3 278 2 1 n: projectMain$Pair.<instance_field_initializations>()void in TU 3
+wur: conc12 3 891 4 404 2 1 n: projectMain$Pair.getFirst()java.lang.String in TU 3
+wur: conc15 2 928 0 274 0 1 n: ScopeReader.<instance_field_initializations>()void in TU 4
+wur: conc7 3 999 0 227 0 1 n: ConfidenceCalc$SortName.<init>()void in TU 2
+wur: conc21 2 1547 3 520 0 4 n: projectMain$Pair.hashCode()int in TU 3
+wur: conc11 1 3502 3 466 0 24 n: ConfidenceCalc.round(float)java.math.BigDecimal in TU 2
+wur: conc8 2 1750 0 638 0 1 n: ConfidenceCalc$SortName.compare(java.lang.Object, java.lang.Object)int in TU 2
+wur: conc18 2 1449 2 563 0 1 n: projectMain$Pair.<init>(java.lang.String, java.lang.String)void in TU 3
+wur: conc22 1 2488 9 120 12 1 n: projectMain.<clinit>()void in TU 3
+wur: conc16 3 1689 3 521 1 1 n: ScopeReader.<init>()void in TU 4
+wur: conc14 1 11196 102 1056 101 108 n: ConfidenceCalc.confiCalc()void in TU 2
+wur: conc19 2 10146 199 1992 197 94 n: ScopeReader.read(int)void in TU 4
+wur: conc9 4 1835 390 671 4 mem=17571840 max=69386240 1 n: ConfidenceCalc.<instance_field_initializations>()void in TU 2
+wur: conc10 1 3119 3 715 3 1 n: ConfidenceCalc.<init>()void in TU 2
+wur: conc26 8 6456 425 333 13 mem=17985536 max=69402624 30 n: projectMain.print_scopes()void in TU 3
+wur: conc23 7 936 468 227 3 mem=17575936 max=69390336 1 n: projectMain.<init>()void in TU 3
+wur: conc24 5 9339 478 509 28 mem=18124800 max=69439488 43 n: projectMain.scopeParser(java.lang.String)void in TU 3
+wur: conc25 1 5962 9 476 10 36 n: projectMain.main(java.lang.String[])void in TU 3
+wur: conc20 6 1943 514 1076 7 mem=17715200 max=69390336 62 n: projectMain$Pair.equals(java.lang.Object)boolean in TU 3
+wur: gen2 1 35441 58 166 57 mem=19132416 max=70467584 293 nr=11 n: batch 2
+wur: gen1 2 13471 61 341 61 mem=19193856 max=70529024 84 nr=3 n: batch 1
+wur: gen0 3 26474 149 111 147 mem=19501056 max=70864896 320 nr=6 n: batch 0
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 3
+summary: Total LoC input to cov-analyze : 315
+summary: Functions analyzed             : 20
+summary: Paths analyzed                 : 709
+summary: Time taken by analysis         : 00:00:36
+summary: Defect occurrences found       : 0
+summary: Number of functions: 27
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 485892096
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

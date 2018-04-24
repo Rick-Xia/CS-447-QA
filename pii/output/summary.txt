@@ -1,0 +1,18 @@
+/usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --dir /home/y755zhan/coverity-idirs/g65_project --disable-webapp-security --strip-path /home/y755zhan/work/group_065/pi/partA --all --enable-fb 
+
+FindBugs time: 00:00:05
+Analysis summary report:
+------------------------
+Files analyzed                 : 3
+Total LoC input to cov-analyze : 315
+Functions analyzed             : 20
+Paths analyzed                 : 709
+Time taken by analysis         : 00:00:36
+Defect occurrences found       : 0
+FindBugs Checkers: 14 errors
+                  FB.DM_DEFAULT_ENCODING           1
+                  FB.REC_CATCH_EXCEPTION           1
+ FB.SE_COMPARATOR_SHOULD_BE_SERIALIZABLE           1
+                  FB.SS_SHOULD_BE_STATIC           7
+        FB.VA_FORMAT_STRING_USES_NEWLINE           4
+Additional defects, FindBugs   : 14

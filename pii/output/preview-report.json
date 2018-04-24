@@ -1,0 +1,284 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2017-04-03T05:01:48.880Z",
+    "user" : "admin",
+    "command" : "/usr/local/cov-analysis-linux64-8.7.1/bin/cov-analyze --dir /home/y755zhan/coverity-idirs/g65_project --disable-webapp-security --strip-path /home/y755zhan/work/group_065/pi/partA --all --enable-fb"
+  },
+  "issueInfo" : [ {
+    "cid" : 10209,
+    "mergeKey" : "c9c7f212c76231f90d24c4b2012f3af6",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.DM_DEFAULT_ENCODING",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.scopeParser(java.lang.String)",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 89,
+      "mainEventDescription" : "Found reliance on default encoding: new java.io.FileReader(String).",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10210,
+    "mergeKey" : "29381f20b1c4584cff8f932e181682c4",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.REC_CATCH_EXCEPTION",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.scopeParser(java.lang.String)",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 122,
+      "mainEventDescription" : "Catching RuntimeExceptions, perhaps unintentionally, with a catch block for Exception.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10211,
+    "mergeKey" : "144b7f360fe0aaef3de01d149f472166",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.SE_COMPARATOR_SHOULD_BE_SERIALIZABLE",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 8,
+      "mainEventDescription" : "ConfidenceCalc$SortName implements Comparator but not Serializable.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10212,
+    "mergeKey" : "c031b5797cf825d09a3f3b1c99d23c47",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 19,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_BUG; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 20,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_IN; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 21,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_PAIR; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 22,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_COMMA; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 23,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_SUPPORT; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 24,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_CONFIDENCE; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.SS_SHOULD_BE_STATIC",
+      "file" : "/ConfidenceCalc.java",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 25,
+      "mainEventDescription" : "Unread field: ConfidenceCalc.STRING_PERCENTAGE; should this field be static?",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10213,
+    "mergeKey" : "5302f7180b4604a777d4e773b2bd7cf4",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.VA_FORMAT_STRING_USES_NEWLINE",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.print_scopes()",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 134,
+      "mainEventDescription" : "Format string should use %n rather than \\n.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.VA_FORMAT_STRING_USES_NEWLINE",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.print_scopes()",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 136,
+      "mainEventDescription" : "Format string should use %n rather than \\n.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    }, {
+      "checker" : "FB.VA_FORMAT_STRING_USES_NEWLINE",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.print_scopes()",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 139,
+      "mainEventDescription" : "Format string should use %n rather than \\n.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 10214,
+    "mergeKey" : "c374a39207cc81c131017d53158447c5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2017-04-03T04:49:52.983Z",
+    "occurrences" : [ {
+      "checker" : "FB.VA_FORMAT_STRING_USES_NEWLINE",
+      "file" : "/projectMain.java",
+      "function" : "projectMain.scopeParser(java.lang.String)",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 110,
+      "mainEventDescription" : "Format string should use %n rather than \\n.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  } ]
+}
